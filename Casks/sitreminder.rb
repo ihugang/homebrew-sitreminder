@@ -1,6 +1,6 @@
 cask "sitreminder" do
-  version "1.0.0"
-  sha256 "568d69fe14cff4ab51cda900a37ae3c7b4600cdd81f98cf9a332a8d84eb14386"
+  version "1.01"
+  sha256 "f6cc5b69a11df57739942af900a70cfbbb5e160a6f8a5f3384b92119bd3ad690"
 
   url "https://github.com/ihugang/sitreminder/releases/download/v#{version}/SitReminder.dmg"
   name "SitReminder"
