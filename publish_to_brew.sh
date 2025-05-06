@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION="1.0.0"
+VERSION="1.01"
 DMG_PATH="SitReminder.dmg"
 TAP_REPO_DIR="../homebrew-sitreminder"
 CASK_NAME="sitreminder"
@@ -24,7 +24,7 @@ cask "$CASK_NAME" do
   version "$VERSION"
   sha256 "$SHA"
 
-  url "$GITHUB_REPO/releases/download/v\#{version}/SitReminder.dmg"
+  url "$GITHUB_REPO/releases/download/v#{version}/SitReminder.dmg"
   name "SitReminder"
   desc "Menu bar reminder app for programmers to stand up and move"
   homepage "$GITHUB_REPO"
